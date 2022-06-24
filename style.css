@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap');
+
+header {
+    background-color: chartreuse; 
+    height: 100px;
+    display: flex;
+    color: red;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+header div.logo {
+    width: 100px;
+    height: 50px;
+    background-color: cornflowerblue;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+header div.logo img {
+    height: 100px;
+}
+
+header nav {
+    /* background-color: crimson; */
+    margin-left: auto;
+}
+
+header nav ul {
+    margin: 20px 0px 0px 500px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+header nav ul li {
+    background-color: #E1E8ED;
+    padding: 10px;
+    margin: 0px 10px;
+    border: 2px solid #292F33;
+    border-radius: 10px;
+}
+
+header nav ul li a {
+    color: #292F33;
+    text-decoration: none;
+}
+
+header nav ul li:hover {
+    background-color: #55ACEE;
+}
+
+header nav ul li:active {
+    background-color: #292F33;
+}
+
+header nav ul li:active a {
+    color: #55ACEE;
+}
+
+main {
+    height: flex;
+    /*display: flex;*/
+    font-family: 'Oswald', sans-serif;
+    margin-left: 40px;
+}
+
+footer{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    background-color: chartreuse;
+    color: red;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
